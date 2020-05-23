@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
         });
 /***/
         //
-        //Getting all the visible bluetooth devices
+        //Getting all the visible bluetooth device
         //
         mVisibleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
