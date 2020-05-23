@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                     String action = intent.getAction();
                     if (BluetoothDevice.ACTION_FOUND.equals(action)) {
                         BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
-                        mPairedTv.append("\nDevice: " + device+ ", " + device);
+                        mPairedTv.append("\nDevice: " + device.getName()+ ", " + device);
 
                     }
                 }
