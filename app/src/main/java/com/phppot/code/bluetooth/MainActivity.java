@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 else {
-                    //bluetooth is off so can't get paired devices
+                    //bluetooth is off so can't get paired devices at time
                     showToast("Turn on bluetooth to get paired devices");
                 }
             }
